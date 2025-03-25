@@ -19,7 +19,7 @@ contract MyToken is ERC20 {
         emit Transfer(from, to, value); // Log the event
     }
 }
-
+//here from,to ,amount is being used for the transfer function mainly.(minting,burning,sending to each other)
 
 //when minting new token, that means it coming from 0 adrress
 //when i'm minting(deleting) existing token,that means it going back to 0 address(means don't exist anymore)
