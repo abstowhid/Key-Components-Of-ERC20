@@ -1,6 +1,6 @@
 contract MyToken is ERC20 {
     function mint(address to, uint256 amount) public {
-        _update(address(0), to, amount); // Mint tokens
+        _update(address(0), to, amount); // Mint tokens(used 0 as from because its minting)
     }
     
     function _update(address from, address to, uint256 value) internal {
